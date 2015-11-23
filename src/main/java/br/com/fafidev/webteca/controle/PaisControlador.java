@@ -40,7 +40,7 @@ public class PaisControlador implements Serializable {
         }
     }
 
-    public String excluir(Instituicao instituicao) {
+    public String excluir(Pais pais) {
         try {
             paisDAO.delete(pais);
             JsfUtil.addSuccessMessage("Instituição removida com sucesso!");
